@@ -1,0 +1,58 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+picture,
+img {
+    max-width: 90%;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    li {
+        margin-bottom: 3.5%;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1200px) {
+    li {
+        margin-bottom: 3%;
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:600px) and (min-width:1200px) {
+    li {
+        float: right;
+        width: 25%;
+        margin-bottom: 3%;
+    }
+}
